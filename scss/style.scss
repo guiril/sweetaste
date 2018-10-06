@@ -468,6 +468,7 @@ h3 {
       transform: translateY(0);
     }
     li {
+      position: relative;
       display: flex;
       align-items:center;
       justify-content:center;
@@ -476,6 +477,7 @@ h3 {
       width: 260px;
       height: 256px;
       margin-right: 1px;
+      cursor: pointer;
       &:hover {
         background: $color-4;
       }
@@ -483,7 +485,6 @@ h3 {
         width: 33.2%;
       }
       a {
-        position: relative;
         display: block;
         color: $color-3;
         letter-spacing: 8px;
@@ -505,7 +506,7 @@ h3 {
       }
       &:nth-child(1) {
         a:before {
-          background: url(../images/index-bg-01.jpg) no-repeat;
+          background-image: url(../images/index-bg-01.jpg);
           @include bg-style;
         }
       }
