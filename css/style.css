@@ -1959,14 +1959,18 @@ h3 {
   width: 100%;
 }
 
-.receipt-form .address {
-  position: relative;
+.receipt-form .address::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.receipt-form .address .address-label {
+  display: inline-block;
 }
 
 .receipt-form .address .copyaddress {
-  position: absolute;
-  top: 0;
-  right: 0;
+  float: right;
 }
 
 .receipt-form .address .copyaddress [type="checkbox"] {

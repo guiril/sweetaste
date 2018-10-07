@@ -1468,11 +1468,12 @@ h3 {
     @extend %checkout-form-col-1;
   }
   .address {
-    position: relative;
+    @include clearfix;
+    .address-label {
+      display: inline-block;
+    }
     .copyaddress {
-      position: absolute;
-      top: 0;
-      right: 0;
+      float: right;;
       [type="checkbox"] {
         display: inline-block;
       }
