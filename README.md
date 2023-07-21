@@ -5,6 +5,6 @@
 ## Demo
 
 **Sweetaste**：
-[https://ouiis.github.io/sweetaste/](https://ouiis.github.io/sweetaste/ "Sweetaste")
+[https://ouiis.github.io/sweetaste/](https://guiril.github.io/sweetaste/ "Sweetaste")
 
 ![](https://i.imgur.com/0m9q2b1.jpg)
